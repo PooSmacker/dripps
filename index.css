@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(55, 55, 56);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the top */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative; /* Set position to relative to make absolute positioning work correctly */
+    font-size: 50px;
+}
+
+.title {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.normal {
+    color: white;
+    position: absolute;
+    top: 200px; /* Adjust this value as needed */
+    left: 20%;
+    transform: translateX(-50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.normal a {
+    color: white; /* Change link color to white */
+    text-decoration: underline; /* Remove underline */
+}
